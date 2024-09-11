@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:Verdana,sans-serif;
+        }
+        .gallery{
+            font-size: 18px;
+            color:black;
+            border: 2px solid #0C0DF0;
+            text-align: center;
+            margin:auto;
+        }
+        .frame p{
+            border:2px solid #0C0DF0;
+            padding:20px;
+            margin:0px;
+        }
+        .frame img{
+            display:flex;
+            position:relative;
+        }
+        .frame{
+            max-width:200px;
+            padding:6px;
+        }
+        .container{
+            max-width: 900px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table alignment="center" rules="none" class="gallery">
+            <caption><h1>Image Gallery</h1></caption>
+                <tr>
+                    <td class="frame">
+                        <img src="images\image1.png" alt="Placeholder Image 1" size="200x200">
+                        <p>Add a description of image1 here</p>
+                    </td>
+                    <td class="frame">
+                        <img src="images\image2.png" alt="Placeholder Image 2" size="200x200">
+                        <p>Add a description of image2 here</p>
+                    </td>
+                    <td class="frame">
+                        <img src="images\image3.png" alt="Placeholder Image 3" size="200x200">
+                        <p>Add a description of image3 here</p>
+                    </td>
+                    <td class="frame">
+                        <img src="images\image4.png" alt="Placeholder Image 4" size="200x200">
+                        <p>Add a description of image4 here</p>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Enquiry Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="container">
+        <section class="enquiry">
+            <h1>Product Enquiry Form</h1>
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input id="fullName" class="input" type="text" placeholder="John Smith">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" class="input" type="text" placeholder="john@mail.com">
+            </div>
+            <div>
+                <label for="product">Product:</label>
+                <select id="product" class="input" name="product">
+                    <option>Select...</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <input id="message" class="input" type="text" placeholder="Type your message here...">
+            </div>
+            <div>
+                <input class="input" type="checkbox" name="news" style="border:2px solid #0D0CF0">Subscribe to our newsletter
+            </div>
+            <div><input class="input" type="submit" value="Submit"></div>
+        </section>
+    </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+    font-family:Verdana,sans-serif;
+    font-size:14px;
+    color:black;
+}
+.logo{
+    background-color:#232376;
+    padding:18px;
+    width:48px;
+    height:48px;
+}
+.active{
+    background-color: black;
+}
+.navbar{
+    background-color: #0C0DF0;
+    display: flex;
+}
+.nav-links a:hover{ 
+    background-color: #232376;
+}
+.nav-links {
+    display: flex;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    padding:0px;
+    margin:0;
+}
+.nav-links a{
+    display:flex;
+    text-align: center;
+    text-decoration: none;
+    color:#f5d026;
+    padding:16px;
+}
+/* Gallery */
+.gallery{
+    font-size: 18px;
+    color:black;
+    border: 2px solid #0C0DF0;
+    text-align: center;
+    margin:auto;
+}
+.frame p{
+    border:2px solid #0C0DF0;
+    padding:20px;
+    margin:0px;
+}
+.frame p:hover{
+    background-color: red;
+}
+.frame img{
+    display:flex;
+    position:relative;
+}
+.frame{
+    max-width:200px;
+    padding:6px;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+/* Webform */
+form.container{
+    max-width:500px;
+    background-color:#F5D026;
+    margin:auto;
+}
+section.enquiry{
+    margin:auto;
+    padding:1%;
+}
+.enquiry h1{
+    font-size: 18px;
+    margin:0px;
+}
+.enquiry label{
+    display:flex;
+    margin:2px;
+}
+.enquiry div{
+    margin:auto;
+}
+div .input{
+   border:2px solid #0D0CF0;
+}
